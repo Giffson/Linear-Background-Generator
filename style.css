@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tc{
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 46px;
+}
+.description{
+    font-size: 22px;
+}
+.background{
+    background: linear-gradient(to right, #00ff00, #ff0000);
+    padding: 2rem;
+    position: relative;
+    height: 100svh;
+    width: 100svw;
+}
+.color-code{
+    font-size: 1rem;
+}
+.mb-2{
+    margin-bottom: 2rem;
+}
+footer{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
